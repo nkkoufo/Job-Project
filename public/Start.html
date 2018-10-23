@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!--
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("bar.html");
+    });
+    </script>
+  -->
+    <link rel="stylesheet" href="style.css">
+    <title> Place holder for a tab name! </title>
+  </head>
+  <body style>
+    <style type="text/css">
+    </style>
+    <!--<div id="nav-placeholder"></div>-->
+    <div align="center" style="background-color:#ff5b5b; width: 100%; height:30px;">
+      Nav bar place placeholder
+    </div>
+    <div class="outer">
+      hi
+      <div class="middle">
+        ji
+        <div class="content">
+          box
+          <div class="main-content container-fluid">
+        <div class="row">
+          <div class="col-sm-6 job-search">
+            <section>
+              <h1><span>Ready for your next job?</span></h1>
+              <h2>Find it with us!</h2>
+              <img src="Placeholder.png" alt="" class="img-responsive">
+
+              <!--FORM-->
+              <div id="form-holder">
+                <form name="widgetsForm" id="widgetsForm" action="" onsubmit="">
+
+                      <div id="keyword">
+                        <label for="q" class="col-sm-12 control-label" style="display:none;">
+                        </label>
+                        <span class="twitter-typeahead" style="position: relative; display: inline-block; direction: ltr;">
+                          <input type="text" class="form-control typeahead tt-hint" autocomplete="off" disabled="" spellcheck="false" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);">
+                          <input type="text" name="q" id="q" class="form-control typeahead tt-input" autocomplete="off" placeholder="Enter Login" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;">
+                          <pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: Roboto, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;">
+                          </pre>
+                          <span class="tt-dropdown-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none; right: auto;">
+                            <div class="tt-dataset-1"></div>
+                          </span>
+                        </span>
+                      </div>
+
+                      <div id="location">
+                        <label for="where" class="col-sm-12 control-label" style="display:none;"></label>
+                        <span class="twitter-typeahead" style="position: relative; display: inline-block; direction: ltr;">
+                          <input type="text" class="form-control typeahead tt-hint" autocomplete="off" disabled="" spellcheck="false" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);">
+                          <input type="text" name="where" id="where" class="form-control typeahead tt-input" autocomplete="off" placeholder="Enter Password" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;">
+                          <pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: Roboto, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;">
+                          </pre>
+                          <span class="tt-dropdown-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none; right: auto;">
+                            <div class="tt-dataset-0"></div>
+                          </span>
+                        </span>
+                      </div>
+
+                        <div class="form-group actionButtons">
+                          <input type="submit" id="searchGenerateButton" onclick="javascript:return placeFunctionhere" value="Login">
+                        </div>
+                        <div class=="signup">
+                          <a href=""
+                        </div>
+
+                    </form>
+              </div>
+              <!-- END FORM -->
+
+            </section>
+            <div class="or">OR</div>
+          </div>
+          <div class="col-sm-6 hiring-emps">
+            <section>
+              <h1><span>Hiring?</span></h1>
+              <h2>Try the only job ad that finds recruits for you!</h2>
+              <img src="Placeholder.png" alt="" class="img-responsive">
+              <p>Turn your job into something easy aka put something better here.</p>
+              <button onclick="javascript:return placeFunctionhere;">Start Hiring</button>
+            </section>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+
+    </div>
+
+<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyApEXFeY7TbTVI35J1bneE36oSE6g0NxPM",
+    authDomain: "api-project-437884263186.firebaseapp.com",
+    databaseURL: "https://api-project-437884263186.firebaseio.com",
+    projectId: "api-project-437884263186",
+    storageBucket: "api-project-437884263186.appspot.com",
+    messagingSenderId: "437884263186"
+  };
+  firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
+  // Handle Errors here.
+  var errorCode = error.code;
+  var errorMessage = error.message;
+  // ...
+});
+  firebase.initializeApp(config);
+</script>
+  </body>
+</html>
